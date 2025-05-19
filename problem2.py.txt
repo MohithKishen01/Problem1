@@ -1,0 +1,8 @@
+# File: Problem-2.py
+
+def generate_odd_series(a: int) -> list:
+    return [2 * i + 1 for i in range(a)]
+
+# Example usage:
+a = 5
+print(generate_odd_series(a))  # Output: [1, 3, 5, 7, 9]

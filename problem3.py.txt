@@ -1,0 +1,12 @@
+# File: Problem-3.py
+
+def generate_up_to_odd(a: int) -> list:
+    result = []
+    for i in range(1, a + 1):
+        if i % 2 == 1:
+            result.append(i)
+    return result
+
+# Example usage:
+a = 6
+print(generate_up_to_odd(a))  # Output: [1, 3, 5]
